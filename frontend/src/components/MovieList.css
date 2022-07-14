@@ -1,0 +1,21 @@
+.movie-list h2 {
+    margin-bottom: 20px;
+}
+
+.movie-item {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+}
+
+.movie-item svg {
+    font-size: 1.2rem;
+    margin: 15px 5px;
+}
+
+.movie-item .faEdit {
+    color: yellowgreen;
+}
+
+.movie-item .faTrash {
+    color: crimson;
+}

@@ -1,0 +1,39 @@
+.App {
+  padding: 25px;
+  background-color: #0f131a;
+  min-height: 100vh;
+}
+
+.App-header {
+  margin-bottom: 25px;
+  padding-bottom: 25px;
+  text-align: center;
+  font-size: 20px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: #4d4f6c;
+}
+
+.fa-film {
+  color: teal;
+  transform: rotate(25deg);
+}
+
+.layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  color: white;
+}
+
+.movielist .addB {
+  margin-top: 25px;
+}
+
+.fa-arrow-right-from-bracket {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  cursor: pointer;
+  font-size: 1.7rem;
+  color: tomato;
+}
